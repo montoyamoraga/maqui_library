@@ -1,7 +1,19 @@
+// ex00_sequencer
+// by montoyamoraga
+// may 2024
+
+// import library
+# include "Maqui.h"
+
+Maqui maqui;
+
 void setup() {
+    Serial.begin(9600);
 
 }
 
 void loop() {
-    
+    Serial.println("hello maqui");
+    delay(1000);
+
 }
