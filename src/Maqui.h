@@ -2,10 +2,9 @@
 #define MAQUI_H
 
 #include <Arduino.h>
+#include "NotasMIDI.h"
 
 class Maqui {
-
-    int canal;
     
     public: 
         // constructor
@@ -15,6 +14,8 @@ class Maqui {
         ~Maqui();
 
         void cambiarCanal(int nuevoCanal);
+
+        static int canal;
 };
 
 #endif

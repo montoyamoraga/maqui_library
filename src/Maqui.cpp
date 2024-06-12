@@ -1,5 +1,7 @@
 #include "Maqui.h"
 
+int Maqui::canal = 1;
+
 Maqui::Maqui() {
     // constructor
 }
@@ -9,7 +11,7 @@ Maqui::~Maqui() {
 }
 
 void Maqui::cambiarCanal(int nuevoCanal) {
-  canal = nuevoCanal;
+  Maqui::canal = nuevoCanal;
 }
 
 

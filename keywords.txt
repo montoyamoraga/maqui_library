@@ -8,7 +8,7 @@ Maqui		KEYWORD1
 # Methods and functions
 ################################
 
-placeholderMethod			KEYWORD2
+cambiarCanal			KEYWORD2
 
 ################################
 # Constants
