@@ -2,7 +2,7 @@
 # Classes
 ################################
 
-placeholderClass		KEYWORD1
+Maqui		KEYWORD1
 
 ################################
 # Methods and functions
