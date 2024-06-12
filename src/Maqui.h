@@ -13,6 +13,7 @@ class Maqui {
         // destructor
         ~Maqui();
 
+        int mostrarCanal();
         void cambiarCanal(int nuevoCanal);
 
         static int canal;
