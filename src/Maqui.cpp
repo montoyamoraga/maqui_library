@@ -7,3 +7,9 @@ Maqui::Maqui() {
 Maqui::~Maqui() {
     // destructor
 }
+
+void Maqui::cambiarCanal(int nuevoCanal) {
+  canal = nuevoCanal;
+}
+
+

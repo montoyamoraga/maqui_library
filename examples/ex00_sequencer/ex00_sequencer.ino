@@ -3,11 +3,10 @@
 // may 2024
 
 // import library
-// # include "Maqui.h"
+# include "Maqui.h"
 
-// Maqui maqui;
+Maqui maqui;
 
-int canal = 1;
 int noteOn = 0x90;
 int noteOff = 0x80;
 

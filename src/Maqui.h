@@ -5,6 +5,7 @@
 
 class Maqui {
 
+    int canal;
     
     public: 
         // constructor
@@ -13,6 +14,7 @@ class Maqui {
         // destructor
         ~Maqui();
 
+        void cambiarCanal(int nuevoCanal);
 };
 
 #endif
