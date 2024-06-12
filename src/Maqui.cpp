@@ -14,4 +14,8 @@ void Maqui::cambiarCanal(int nuevoCanal) {
   Maqui::canal = nuevoCanal;
 }
 
+int Maqui::mostrarCanal() {
+  return Maqui::canal;
+}
+
 
