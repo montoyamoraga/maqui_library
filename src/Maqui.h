@@ -28,6 +28,7 @@ class Maqui {
         // send MIDI Note On message
        void enviarMIDINoteOn(int nota, int velocidad);
        void enviarMIDINoteOff(int nota);
+       void enviarMIDIControlChange(int control, int valor);
 
         static int canal;
         static int noteOn;
