@@ -15,6 +15,12 @@ Maqui::Maqui() {
 
 Maqui::~Maqui() {
     // destructor
+    if (notas != nullptr) {
+        delete notas;
+    }
+    if (pantalla != nullptr) {
+        delete pantalla;
+    }
 }
 
 void Maqui::iniciar() {
