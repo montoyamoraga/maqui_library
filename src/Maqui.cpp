@@ -8,7 +8,7 @@ int Maqui::velocidadCero = 0x00;
 
 Maqui::Maqui() {
     notas = new NotasMIDI();
-    
+    pantalla = new Pantalla12x8();
 }
 
 
