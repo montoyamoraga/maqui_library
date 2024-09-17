@@ -3,12 +3,14 @@
 
 #include <Arduino.h>
 #include "NotasMIDI.h"
+#include "Pantalla12x8.h"
 
 class Maqui {
 
     protected:
     
         NotasMIDI *notas  = nullptr;
+        Pantalla12x8 *pantalla = nullptr;
     
     public: 
 
