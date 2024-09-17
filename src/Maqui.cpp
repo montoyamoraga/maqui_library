@@ -48,3 +48,9 @@ void Maqui::enviarMIDINoteOff(int nota) {
   Serial1.write(velocidadCero);
 }
 
+void Maqui::enviarMIDIControlChange(int control, int valor) {
+  // Serial1.write();
+  Serial1.write(control);
+  Serial1.write(valor);
+}
+
