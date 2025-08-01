@@ -54,3 +54,5 @@ void Maqui::enviarMIDIControlChange(int control, int valor) {
   Serial1.write(valor);
 }
 
+
+
