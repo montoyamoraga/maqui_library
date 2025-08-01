@@ -29,5 +29,6 @@ jobs:
             - examples/
           libraries: |
             - source-path: ./
+            - name: FrecuenciasMIDI
             - name: NotasMIDI
             - name: Pantalla12x8
