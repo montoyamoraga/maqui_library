@@ -2,6 +2,7 @@
 #define MAQUI_H
 
 #include <Arduino.h>
+#include "FrecuenciasMIDI.h"
 #include "NotasMIDI.h"
 #include "Pantalla12x8.h"
 
