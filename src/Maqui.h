@@ -13,7 +13,7 @@ class Maqui {
         NotasMIDI *notas  = nullptr;
         Pantalla12x8 *pantalla = nullptr;
     
-    public: 
+    public:
 
         // constructor
         Maqui();
@@ -26,16 +26,14 @@ class Maqui {
         int mostrarCanal();
         void cambiarCanal(int nuevoCanal);
 
-        // send MIDI Note On message
-       void enviarMIDINoteOn(int nota, int velocidad);
-       void enviarMIDINoteOff(int nota);
-       void enviarMIDIControlChange(int control, int valor);
+        void enviarMIDINoteOn(int nota, int velocidad);
+        void enviarMIDINoteOff(int nota);
+        void enviarMIDIControlChange(int control, int valor);
 
         static int canal;
         static int noteOn;
         static int noteOff;
         static int velocidadCero;
-
 
 };
 
