@@ -9,7 +9,7 @@
 
 // aqui no hemos modificado nada del ejemplo
 
-#include "Arduino_LED_Matrix.h"   //Include the LED_Matrix library
+// #include "Arduino_LED_Matrix.h"   //Include the LED_Matrix library
 #include "animation.h"            //Include animation.h header file
 
 // Create an instance of the ArduinoLEDMatrix class
