@@ -2,16 +2,20 @@
 # Classes
 ################################
 
-Maqui		KEYWORD1
+Maqui					KEYWORD1
 
 ################################
 # Methods and functions
 ################################
 
 cambiarCanal			KEYWORD2
+mostrarCanal			KEYWORD2
+enviarMIDINoteOn		KEYWORD2
+enviarMIDINoteOff		KEYWORD2
+enviarMIDIControlChange	KEYWORD2
 
 ################################
 # Constants
 ################################
 
-placeholderConstant			KEYWORD3
+placeholderConstant		KEYWORD3
