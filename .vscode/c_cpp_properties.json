@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "${workspaceFolder}/**",
+                    "/Users/**/Documents/Arduino/libraries"
+            ],
+            "browse": {
+                "path": [
+                    "${workspaceFolder}/**",
+                    "/Users/**/Documents/Arduino/libraries"
+                ]
+            },
+            "defines": [],
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "c17",
+            "cppStandard": "c++14",
+            "intelliSenseMode": "macos-clang-arm64"
+        }    ],
+    "version": 4
+}
