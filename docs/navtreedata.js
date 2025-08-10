@@ -25,15 +25,19 @@
 var NAVTREE =
 [
   [ "maqui_library", "index.html", [
-    [ "maqui_library", "md__r_e_a_d_m_e.html", [
-      [ "Dependencies", "md__r_e_a_d_m_e.html#autotoc_md1", null ]
+    [ "Data Structures", "annotated.html", [
+      [ "Data Structures", "annotated.html", "annotated_dup" ],
+      [ "Data Structure Index", "classes.html", null ]
+    ] ],
+    [ "Files", "files.html", [
+      [ "File List", "files.html", "files_dup" ]
     ] ]
   ] ]
 ];
 
 var NAVTREEINDEX =
 [
-"index.html"
+"_maqui_8h_source.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';
