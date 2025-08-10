@@ -27,7 +27,11 @@ class Maqui {
     
     public:
 
-        // constructor
+        /*! \ Maqui
+        *  \brief Class
+        *  
+        *  Detailed description starts here.
+        */
         Maqui();
 
         // destructor
