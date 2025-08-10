@@ -1,3 +1,9 @@
+/*! \brief Brief description.
+ *         Brief description continued.
+ *
+ *  Detailed description starts here.
+ */
+
 #ifndef MAQUI_H
 #define MAQUI_H
 
