@@ -37,7 +37,7 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"_maqui_8h_source.html"
+"_maqui_8h.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';
