@@ -1,5 +1,6 @@
 var NAVTREEINDEX0 =
 {
+"_maqui_8h.html":[1,0,0,0],
 "_maqui_8h_source.html":[1,0,0,0],
 "annotated.html":[0,0],
 "class_maqui.html":[0,0,0],

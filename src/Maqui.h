@@ -1,7 +1,8 @@
-/*! \brief Brief description.
- *         Brief description continued.
- *
+/*! \file Maqui.h
+ *  \brief Header file  for Maqui.
+ *  
  *  Detailed description starts here.
+ * \author montoyamoraga
  */
 
 #ifndef MAQUI_H
@@ -12,6 +13,11 @@
 #include "NotasMIDI.h"
 #include "Pantalla12x8.h"
 
+/*! \class Maqui
+ *  \brief Class
+ *  
+ *  Detailed description starts here.
+ */
 class Maqui {
 
     protected:

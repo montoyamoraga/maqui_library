@@ -31,6 +31,7 @@ void Maqui::cambiarCanal(int nuevoCanal) {
     // error
   } else {
   Maqui::canal = nuevoCanal;
+  }
 }
 
 int Maqui::mostrarCanal() {
