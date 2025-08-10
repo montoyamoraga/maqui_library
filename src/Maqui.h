@@ -21,6 +21,10 @@ class Maqui {
         // destructor
         ~Maqui();
 
+        // constantes
+        static const int canalMinimo;
+        static const int canalMaximo;
+
         void iniciar();
 
         int mostrarCanal();

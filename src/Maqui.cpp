@@ -5,22 +5,21 @@ int Maqui::noteOn = 0x90;
 int Maqui::noteOff = 0x80;
 int Maqui::velocidadCero = 0x00;
 
-
+// constructor
 Maqui::Maqui() {
     notas = new NotasMIDI();
     pantalla = new Pantalla12x8();
 }
 
 
-
+// destructor
 Maqui::~Maqui() {
-    // destructor
-    if (notas != nullptr) {
-        delete notas;
-    }
-    if (pantalla != nullptr) {
-        delete pantalla;
-    }
+  if (notas != nullptr) {
+    delete notas;
+  }
+  if (pantalla != nullptr) {
+      delete pantalla;
+  }
 }
 
 void Maqui::iniciar() {
@@ -28,6 +27,9 @@ void Maqui::iniciar() {
 }
 
 void Maqui::cambiarCanal(int nuevoCanal) {
+  if (nuevoCanal < Maqui::canalMinimo || nuevoCanal > Maqui::canalMaximo) {
+    // error
+  } else {
   Maqui::canal = nuevoCanal;
 }
 
@@ -53,6 +55,3 @@ void Maqui::enviarMIDIControlChange(int control, int valor) {
   Serial1.write(control);
   Serial1.write(valor);
 }
-
-
-
