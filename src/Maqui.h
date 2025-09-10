@@ -1,4 +1,4 @@
-/*! \file Maqui.h
+/** \file Maqui.h
  *  \brief Header file  for Maqui.
  *  
  *  Detailed description starts here.
@@ -13,7 +13,7 @@
 #include "NotasMIDI.h"
 #include "Pantalla12x8.h"
 
-/*! \class Maqui
+/** \class Maqui
  *  \brief Class
  *  
  *  Detailed description starts here.
@@ -21,14 +21,19 @@
 class Maqui {
 
     protected:
-    
+        
+       /** \var Maqui
+        *  \brief constructor
+        *  
+        *  Detailed description starts here.
+        */
         NotasMIDI *notas  = nullptr;
         Pantalla12x8 *pantalla = nullptr;
     
     public:
 
-        /*! \ Maqui
-        *  \brief Class
+        /*! \function Maqui
+        *  \brief constructor
         *  
         *  Detailed description starts here.
         */
